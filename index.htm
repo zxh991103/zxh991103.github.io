@@ -308,9 +308,47 @@ window.addEventListener("resize",()=>{
  cx=canvas.width/2;
  cy=canvas.height/2;
 });
+  
+  
+
 alert("吕露鹏小朋友，2020年新年快乐！\n祝你这一年一定要开开心心！\n我的新年愿望就是让你开心，和你结婚，以后的所有的跨年我一定会和你在一起！\n\n\n\n\n我爱你！！！！！"); 
 initVars();
 frame();
+<style>
+        html,
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            margin: 0;
+        }
+        h2 {
+            font-weight: 600;
+            /* 大写转换 */
+            text-transform: uppercase; 
+            text-align: center;
+            font-size: 10em;
+        }
+
+        /* .filter-shadow {
+            color: transparent;
+            background: linear-gradient(180deg, #fefefe, #bbb);
+            -webkit-background-clip: text;
+            -webkit-filter: drop-shadow(-1px -1px white) drop-shadow(1px 1px gray) drop-shadow(1px 1px #7a7a7a) drop-shadow(1px 1px #757575) drop-shadow(1px 1px #707070) drop-shadow(1px 1px #6b6b6b) drop-shadow(1px 1px #666666) drop-shadow(1px 1px #616161) drop-shadow(1px 1px #5c5c5c) drop-shadow(1px 1px #575757) drop-shadow(1px 1px #525252) drop-shadow(1px 1px #4d4d4d) drop-shadow(12px 12px 30px rgba(0, 0, 0, 0.2)) drop-shadow(12px 12px 10px rgba(0, 0, 0, 0.2));
+        } */
+
+        .text-shadow {
+            color: #f4f4f4;
+            text-shadow: -1px -1px white, 1px 1px gray, 2px 2px #7a7a7a, 3px 3px #757575, 4px 4px #707070, 5px 5px #6b6b6b, 6px 6px #666666, 7px 7px #616161, 8px 8px #5c5c5c, 9px 9px #575757, 10px 10px #525252, 11px 11px #4d4d4d, 18px 18px 30px rgba(0, 0, 0, 0.4), 18px 18px 10px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+
+
+
+    
+    <h2 class="text-shadow">Text Shadow</h2>
 
 
 
